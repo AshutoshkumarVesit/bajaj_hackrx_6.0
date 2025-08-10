@@ -1,0 +1,721 @@
+Bajaj Finserv Health
+HackRx 6.0
+
+Ideate • Co-Create • Impact
+
+Dashboard
+Dashboard Guide
+
+Get started with HackRx 6.0
+
+Problem Statement
+
+Manage your team members
+
+Competition
+Team Management
+
+Manage your team members
+
+Submissions
+
+Submit your projects
+
+My Submissions
+
+View your submissions
+
+Leaderboard
+
+Track your team's progress
+
+
+Sign Out
+Your session will be securely terminated
+
+
+Toggle Sidebar
+GENERAL INSTRUCTIONS:
+1. Read all instructions carefully before attempting.
+
+3. Use of AI tools and frameworks is encouraged.
+
+4. Submit your solution within the given time limit.
+
+5. Code should be well-documented and explainable.
+
+Q.1PROBLEM STATEMENT
+Design an LLM-Powered Intelligent Query–Retrieval System that can process large documents and make contextual decisions. Your system should handle real-world scenarios in insurance, legal, HR, and compliance domains.
+
+Input Requirements:
+
+Process PDFs, DOCX, and email documents
+Handle policy/contract data efficiently
+Parse natural language queries
+Technical Specifications:
+
+Use embeddings (FAISS/Pinecone) for semantic search
+Implement clause retrieval and matching
+Provide explainable decision rationale
+Output structured JSON responses
+Sample Query:
+
+"Does this policy cover knee surgery, and what are the conditions?"
+
+Q.2SYSTEM ARCHITECTURE & WORKFLOW
+2.1) Design and implement the following system components:
+
+1
+Input Documents
+PDF Blob URL
+
+2
+LLM Parser
+Extract structured query
+
+3
+Embedding Search
+FAISS/Pinecone retrieval
+
+4
+Clause Matching
+Semantic similarity
+
+5
+Logic Evaluation
+Decision processing
+
+6
+JSON Output
+Structured response
+
+Q.3EVALUATION PARAMETERS
+3.1) Your solution will be evaluated based on the following criteria:
+
+a
+Accuracy
+Precision of query understanding and clause matching
+
+b
+Token Efficiency
+Optimized LLM token usage and cost-effectiveness
+
+c
+Latency
+Response speed and real-time performance
+
+d
+Reusability
+Code modularity and extensibility
+
+e
+Explainability
+Clear decision reasoning and clause traceability
+
+Q.4RETRIEVAL SYSTEM API DOCUMENTATION
+Base URL (Local Development):
+
+http://localhost:8000/api/v1
+Authentication:
+
+Authorization: Bearer ae3c781e80a6b6d0ec74b60585efe1b7c06c17b09b6b332f076692de6dcfd64b
+✅ Team token loaded successfully
+
+API Endpoints Overview
+POST
+/hackrx/run
+Run Submissions
+
+Sample Upload Request:
+
+POST /hackrx/run
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer ae3c781e80a6b6d0ec74b60585efe1b7c06c17b09b6b332f076692de6dcfd64b
+
+{
+    "documents": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+    "questions": [
+        "What is the grace period for premium payment under the National Parivar Mediclaim Plus Policy?",
+        "What is the waiting period for pre-existing diseases (PED) to be covered?",
+        "Does this policy cover maternity expenses, and what are the conditions?",
+        "What is the waiting period for cataract surgery?",
+        "Are the medical expenses for an organ donor covered under this policy?",
+        "What is the No Claim Discount (NCD) offered in this policy?",
+        "Is there a benefit for preventive health check-ups?",
+        "How does the policy define a 'Hospital'?",
+        "What is the extent of coverage for AYUSH treatments?",
+        "Are there any sub-limits on room rent and ICU charges for Plan A?"
+    ]
+}
+Sample Response:
+
+{
+"answers": [
+        "A grace period of thirty days is provided for premium payment after the due date to renew or continue the policy without losing continuity benefits.",
+        "There is a waiting period of thirty-six (36) months of continuous coverage from the first policy inception for pre-existing diseases and their direct complications to be covered.",
+        "Yes, the policy covers maternity expenses, including childbirth and lawful medical termination of pregnancy. To be eligible, the female insured person must have been continuously covered for at least 24 months. The benefit is limited to two deliveries or terminations during the policy period.",
+        "The policy has a specific waiting period of two (2) years for cataract surgery.",
+        "Yes, the policy indemnifies the medical expenses for the organ donor's hospitalization for the purpose of harvesting the organ, provided the organ is for an insured person and the donation complies with the Transplantation of Human Organs Act, 1994.",
+        "A No Claim Discount of 5% on the base premium is offered on renewal for a one-year policy term if no claims were made in the preceding year. The maximum aggregate NCD is capped at 5% of the total base premium.",
+        "Yes, the policy reimburses expenses for health check-ups at the end of every block of two continuous policy years, provided the policy has been renewed without a break. The amount is subject to the limits specified in the Table of Benefits.",
+        "A hospital is defined as an institution with at least 10 inpatient beds (in towns with a population below ten lakhs) or 15 beds (in all other places), with qualified nursing staff and medical practitioners available 24/7, a fully equipped operation theatre, and which maintains daily records of patients.",
+        "The policy covers medical expenses for inpatient treatment under Ayurveda, Yoga, Naturopathy, Unani, Siddha, and Homeopathy systems up to the Sum Insured limit, provided the treatment is taken in an AYUSH Hospital.",
+        "Yes, for Plan A, the daily room rent is capped at 1% of the Sum Insured, and ICU charges are capped at 2% of the Sum Insured. These limits do not apply if the treatment is for a listed procedure in a Preferred Provider Network (PPN)."
+    ]
+}
+Recommended Tech Stack:
+FastAPI
+Backend
+
+Pinecone
+Vector DB
+
+GPT-4
+LLM
+
+PostgreSQL
+Database
+
+Q.5SCORING DOCUMENTATION
+📘 Scoring System Explanation
+Document Types
+Known Documents: Publicly available
+Unknown Documents: Private & unseen
+Document-Level Weightage
+Known Documents: Low weightage (e.g., 0.5)
+Unknown Documents: High weightage (e.g., 2.0)
+Question-Level Weightage
+Each question may have its own weight (e.g., some are worth more due to complexity or importance).
+Score Calculation
+For each correct answer:
+Score = Question Weight × Document Weight
+Final score is the sum of all such scores across all documents.
+📊 Example
+Documents:
+Doc A (Known) – Weight: 0.5
+Doc B (Unknown) – Weight: 2.0
+Questions:
+Question	Document	Answered Correctly?	Question Weight	Score Contribution
+Q1	Doc A	✅ Yes	1.0	1.0 × 0.5 = 0.5
+Q2	Doc A	❌ No	2.0	0
+Q3	Doc B	✅ Yes	1.0	1.0 × 2.0 = 2.0
+Q4	Doc B	✅ Yes	2.0	2.0 × 2.0 = 4.0
+🧮 Total Score:
+Doc A Contribution: 0.5
+Doc B Contribution: 2.0 + 4.0 = 6.0
+Final Score = 0.5 + 6.0 = 6.5
+✅ Key Points
+Correct answers from unknown documents contribute more.
+High-weight questions boost your score significantly.
+Incorrect or unattempted questions contribute 0, regardless of weight.
+Note: This is just an indicative method of scoring. The actual scoring system may vary based on final evaluation criteria.
+SUBMISSION INSTRUCTIONS
+• Submit your complete solution before the deadline
+
+• Include proper documentation and code comments
+
+• Ensure all requirements are met as per question specifications
+
+• Test all API endpoints with sample data
+
+Submit SolutionView Problem Statement (PDF)
+
+
+
+omplete Journey Overview
+Your Hackathon Journey
+This comprehensive guide will walk you through every step of using the HackRx 6.0 platform, from setting up your team to checking your final ranking on the leaderboard.
+
+Step 1: Team Management
+Step 2: Understanding Problem Statement & Building Solution
+Step 3: Making Submissions & Understanding Documents
+Step 4: Tracking Performance in My Submissions
+Step 5: Checking Leaderboard Rankings
+Platform Journey Overview
+Platform Journey Overview
+Visual flowchart showing the complete user journey
+
+Click to zoom
+
+Step 1: Team Management & Dashboard
+1
+Navigate to Your Dashboard
+Start your journey at the team dashboard - your central hub for team management
+
+Dashboard Location:
+From the sidebar navigation → Dashboard → Team Management
+
+URL: /dashboard
+Go to Dashboard
+What you'll see:
+• Team name and details
+• Current team members
+• Quick submit button (top right)
+Dashboard Interface
+Dashboard Interface
+Screenshot of the main dashboard with team management section
+
+Click to zoom
+
+2
+Understanding Team Information
+Learn what each element in the team management section means
+
+Team Name
+Your registered team name for the hackathon
+
+Example: Team Alpha
+
+Submissions
+Total number of submissions made by your team
+
+Example: 3
+
+Team Details Section
+Team Details Section
+Close-up of team information display
+
+Click to zoom
+
+3
+Quick Submit Access
+Use the dashboard's quick submit feature to start your first submission
+
+Quick Access Tip
+The "Submit" button in the top-right corner of the dashboard provides instant access to the submissions page. This is the fastest way to make your first submission.
+
+Step 2: Understanding Problem Statement & Building Solution
+1
+Navigate to Problem Statement
+Access the complete problem statement and technical documentation
+
+How to access:
+Sidebar → Competition → Problem Statement
+URL: /problem-statement
+Go to Problem Statement
+Important
+The problem statement page contains all the technical details, API documentation, and requirements needed to build your solution. Study this thoroughly before coding.
+
+2
+Problem Statement Sections Overview
+Understanding all components of the comprehensive problem statement
+
+Problem Statement Sections:
+1
+Instructions Section
+General contest instructions and guidelines
+
+2
+Problem Statement
+Core challenge description and objectives
+
+3
+System Architecture
+Technical system design and data flow
+
+4
+Evaluation Criteria
+How your solution will be judged
+
+5
+API Documentation
+Complete API specifications and endpoints
+
+6
+Submission Instructions
+How to deploy and submit your solution
+
+3
+Building Your API Application
+Guidelines for creating your solution and API structure
+
+Application Development Guidelines:
+Required API Structure:
+POST Endpoint Required:
+
+/hackrx/run
+Authentication:
+
+Authorization: Bearer <api_key>
+Request Format:
+
+POST /hackrx/run
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer <api_key>
+
+{
+    "documents": "https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D",
+    "questions": [
+        "What is the grace period for premium payment under the National Parivar Mediclaim Plus Policy?",
+        "What is the waiting period for pre-existing diseases (PED) to be covered?",
+        "Does this policy cover maternity expenses, and what are the conditions?",
+        "What is the waiting period for cataract surgery?",
+        "Are the medical expenses for an organ donor covered under this policy?",
+        "What is the No Claim Discount (NCD) offered in this policy?",
+        "Is there a benefit for preventive health check-ups?",
+        "How does the policy define a 'Hospital'?",
+        "What is the extent of coverage for AYUSH treatments?",
+        "Are there any sub-limits on room rent and ICU charges for Plan A?"
+    ]
+}
+Response Format:
+
+{
+"answers": [
+        "A grace period of thirty days is provided for premium payment after the due date to renew or continue the policy without losing continuity benefits.",
+        "There is a waiting period of thirty-six (36) months of continuous coverage from the first policy inception for pre-existing diseases and their direct complications to be covered.",
+        "Yes, the policy covers maternity expenses, including childbirth and lawful medical termination of pregnancy. To be eligible, the female insured person must have been continuously covered for at least 24 months. The benefit is limited to two deliveries or terminations during the policy period.",
+        "The policy has a specific waiting period of two (2) years for cataract surgery.",
+        "Yes, the policy indemnifies the medical expenses for the organ donor's hospitalization for the purpose of harvesting the organ, provided the organ is for an insured person and the donation complies with the Transplantation of Human Organs Act, 1994.",
+        "A No Claim Discount of 5% on the base premium is offered on renewal for a one-year policy term if no claims were made in the preceding year. The maximum aggregate NCD is capped at 5% of the total base premium.",
+        "Yes, the policy reimburses expenses for health check-ups at the end of every block of two continuous policy years, provided the policy has been renewed without a break. The amount is subject to the limits specified in the Table of Benefits.",
+        "A hospital is defined as an institution with at least 10 inpatient beds (in towns with a population below ten lakhs) or 15 beds (in all other places), with qualified nursing staff and medical practitioners available 24/7, a fully equipped operation theatre, and which maintains daily records of patients.",
+        "The policy covers medical expenses for inpatient treatment under Ayurveda, Yoga, Naturopathy, Unani, Siddha, and Homeopathy systems up to the Sum Insured limit, provided the treatment is taken in an AYUSH Hospital.",
+        "Yes, for Plan A, the daily room rent is capped at 1% of the Sum Insured, and ICU charges are capped at 2% of the Sum Insured. These limits do not apply if the treatment is for a listed procedure in a Preferred Provider Network (PPN)."
+    ]
+}
+Hosting Requirements:
+Public URL
+Your API must be publicly accessible
+
+Example: https://your-domain.com/api/v1/hackrx/run
+
+HTTPS Required
+Secure connection mandatory for submission
+
+Example: SSL certificate required
+
+Response Time
+API should respond within reasonable time
+
+Example: < 30 seconds timeout
+
+Recommended Tech Stack:
+FastAPI (Backend)
+Pinecone (Vector DB)
+GPT-4 (LLM)
+PostgreSQL (Database)
+Deployment Platforms:
+• Heroku
+• Vercel
+• Railway
+• AWS/GCP/Azure
+• Render
+• DigitalOcean
+• Netlify Functions
+• Your own server
+4
+What to Submit in Submissions
+Understanding what you need to provide when making a submission
+
+Required Fields:
+Webhook URL
+Your deployed /hackrx/run endpoint
+
+Example: https://myapp.herokuapp.com/api/v1/hackrx/run
+
+Description (Optional)
+Brief tech stack description
+
+Example: FastAPI + GPT-4 + Pinecone
+
+Evaluation Flow:
+Platform sends test request
+Your API processes & responds
+Platform evaluates answers
+Results displayed instantly
+Request Format:
+POST /hackrx/run
+Authorization: Bearer <api_key>
+{ "documents": "https://example.com/policy.pdf", "questions": ["Question 1", "Question 2", "..."] }
+Expected Response:
+{ "answers": [ "Answer to question 1", "Answer to question 2", "..." ] }
+Pre-Submission Checklist
+✓ API is live & accessible
+✓ HTTPS enabled
+✓ Handles POST requests
+✓ Returns JSON response
+✓ Response time < 30s
+✓ Tested with sample data
+Step 3: Making Submissions & Understanding Documents
+1
+Navigate to Submissions Page
+Access the submissions section to submit your webhook and explore documents
+
+How to get there:
+Click "Submit" button from dashboard, OR
+Sidebar → Competition → Submissions
+URL: /submissions
+Go to Submissions
+Submissions Page Access
+Submissions Page Access
+Navigation paths to reach submissions page
+
+Click to zoom
+
+2
+Webhook Submission Process
+Submit your AI model's webhook URL for evaluation
+
+Webhook Submission Form:
+Webhook URL (Required)
+Your deployed /hackrx/run endpoint that will receive test requests
+
+Example: https://your-api.com/api/v1/hackrx/run
+
+Submission Notes (Optional)
+Brief explanation of your tech stack and approach
+
+Example: FastAPI + GPT-4 + Pinecone vector search with RAG
+
+Submission Process:
+Enter your /hackrx/run webhook URL
+Add optional tech stack notes (500 char limit)
+Review submission preview
+Click "Run" to submit and start evaluation
+Webhook Submission Form
+Webhook Submission Form
+Screenshot of the webhook URL input and notes section
+
+Click to zoom
+
+What Happens During Evaluation:
+Platform sends POST requests to your /hackrx/run endpoint
+Each request includes documents and questions array
+Your API should return success status and processing details
+Platform evaluates responses and generates scores
+Pre-Submission Checklist:
+API Requirements:
+• /hackrx/run endpoint is live
+• HTTPS enabled and accessible
+• Bearer token authentication ready
+• Handles POST requests correctly
+Response Format:
+• Returns valid JSON response
+• Includes success status field
+• Contains processing information
+• Response time under 30 seconds
+3
+Documents Section Deep Dive
+Understand available and locked documents, and how they unlock
+
+Available Documents
+• Document name and size
+• Last modified date
+• "View Document" button
+• Direct PDF access
+Locked Documents
+• Hidden document names
+• "??? KB" file size
+• "Requires Webhook" status
+• Unlock after successful submission
+Documents Grid
+Documents Grid
+Available vs locked documents display
+
+Click to zoom
+
+Document Stats at Bottom
+1
+Available
+2
+Locked
+3
+Total
+Step 4: Understanding My Submissions & All Metrics
+1
+Navigate to My Submissions
+Access your submission history and detailed evaluation results
+
+How to access:
+From Submissions page → "My Submissions" button (top-right), OR
+Sidebar → Competition → My Submissions
+URL: /submissions/all
+Go to My Submissions
+My Submissions Navigation
+My Submissions Navigation
+Path to access submission history and results
+
+Click to zoom
+
+2
+Main Submission Metrics Explained
+Understand every metric displayed in your submission overview
+
+Key Performance Indicators:
+Overall Score
+Your total performance percentage across all questions and documents
+
+Example: 85% (Calculated from correct answers)
+
+Accuracy Ratio
+Number of correct answers out of total questions asked
+
+Example: 17/20 (85% accuracy rate)
+
+Average Response Time
+Mean time taken to respond to API requests
+
+Example: 2.5s (Lower is better)
+
+Metrics Dashboard
+Metrics Dashboard
+Main submission metrics display with color coding
+
+Click to zoom
+
+Score Color Coding:
+90%+ Excellent
+75-89% Good
+60-74% Fair
+Below 60% Needs Improvement
+3
+Submission Details & Metadata
+Additional information about your submission
+
+Submission Timestamp
+When your webhook was submitted and evaluated
+
+Example: July 22, 2025, 2:00 PM
+
+API Endpoint
+The webhook URL that was tested
+
+Example: https://your-api.com/api/v1/hackrx/run
+
+Description/Notes
+Any notes you provided with the submission
+
+Example: Updated model with better prompting
+
+Submission Metadata
+Submission Metadata
+Additional submission details and context
+
+Click to zoom
+
+Step 5: Checking Your Leaderboard Ranking
+1
+Navigate to Leaderboard
+Access the competition rankings to see how your team is performing
+
+How to access:
+Sidebar → Competition → Leaderboard
+URL: /leaderboard
+Go to Leaderboard
+Leaderboard Interface
+Leaderboard Interface
+Dynamic leaderboard with fluid background animation
+
+Click to zoom
+
+2
+Team Card Information & Metrics
+Understand what information is displayed for each team
+
+Left Side - Team Info:
+Rank Number
+Position in circular badge with black background
+
+Example: #1, #2, #3... (in white text)
+
+Team Name
+Your registered team name in large white text
+
+Example: Team Alpha (bold, prominent display)
+
+Team Stats
+Member count and submission count with bullet indicators
+
+Example: 4 members • 3 submissions
+
+Right Side - Performance:
+Score
+Random generated score (0-100) for display purposes
+
+Example: 85 (large, bold number)
+
+Run Time
+Random generated runtime for display purposes
+
+Example: 2.45s (execution time)
+
+Rank Display
+Current position with # symbol
+
+Example: #5 (repeated from left side)
+
+Team Card Layout
+Team Card Layout
+Individual team card showing all metrics and information
+
+Click to zoom
+
+3
+Finding Your Team & Understanding Rankings
+How to locate your team and interpret the ranking system
+
+Locating Your Team:
+Teams are displayed in rank order (top 10 shown)
+Once logged in, your team will be highlighted
+Judging Parameters:
+Accuracy: Precision of query understanding and clause matching
+Token Efficiency: Optimized LLM token usage and cost-effectiveness
+Latency: Response speed and real-time performance
+Reusability: Code modularity and extensibility
+Team Rankings Display
+Team Rankings Display
+Complete view of team rankings with glassmorphism cards
+
+Click to zoom
+
+Journey Complete - Quick Reference
+Quick Navigation Paths:
+Team Management:
+
+Dashboard → Team Management
+
+Make Submission:
+
+Dashboard → Submit Button → Webhook Form
+
+Check Results:
+
+Sidebar → My Submissions → Detailed Metrics
+
+View Rankings:
+
+Sidebar → Leaderboard → Find Your Team
+
+Key Metrics to Track:
+Overall Score (percentage)
+Accuracy Ratio (correct/total)
+Response Time (seconds)
+Leaderboard Rank
+Submission Count
+You're Ready to Compete!
+You now understand every aspect of the HackRx 6.0 platform. Use this guide as reference throughout the competition.
+
+Keep this guide bookmarked for quick reference during the hackathon
+Frequently Asked Questions
+Common Questions:
+Q: How often can I submit?
+
+A: You can submit as many times as you want. More submissions can improve your leaderboard ranking.
+
+Q: Why are some documents locked?
+
+A: Documents unlock after successful webhook submissions to encourage active participation.
+
+Q: How is my score calculated?
+
+A: Score = (Correct Answers / Total Questions) × 100. Each question is weighted equally.
+
+Technical Support:
+If you encounter any issues while using the platform:
+
+Refer to this comprehensive guide first
+Check the problem statement for technical details
+Contact the organizing team for assistance

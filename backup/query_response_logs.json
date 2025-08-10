@@ -1,0 +1,1861 @@
+[
+  {
+    "timestamp": "2025-08-10T17:17:48.641227",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.8645892143249512,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 3ac755\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 3ac755",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:18:18.610644",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 5.775759935379028,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100% ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 51
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുല്കം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 90
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:52:32.388219",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 5.93779444694519,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100% ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 51
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുൽകം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി മോഡ്യുലുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 91
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:55:02.526311",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 10.89198899269104,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "August 6, 2025",
+        "question_length": 46,
+        "answer_length": 14
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമല്ലാത്ത കമ്പ്യൂട്ടർ ചിപ്പുകളാണ്.",
+        "question_length": 52,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "In the context provided, the document discusses a situation where a company might be able to avoid the 100% tax on its profits due to certain conditions or exemptions. However, the specific conditions or exemptions are not detailed in the provided context.",
+        "question_length": 80,
+        "answer_length": 256
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:55:16.583845",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 3.259244203567505,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "No, the document does not provide information about the daily transaction limit for a Bajaj Finserv account.",
+        "question_length": 46,
+        "answer_length": 108
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെലികമ്മയുനേഷൻ ഉപകരണങ്ങളുടെയും ഇറക",
+        "question_length": 52,
+        "answer_length": 61
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശതമാന ശുല്കത്തിൽ നിന്നും ഒഴികെയാക്കാം, യു.എസ്.ൽ നിർമ്മിക്കപ്പെടുന്ന പ്രബുദ്ധരായ കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കായി.",
+        "question_length": 80,
+        "answer_length": 129
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:55:51.914917",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 31.031298398971558,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "ട്രംപ് ഓഗസ്റ്റ് 6, 2025 ന് 100% ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 52
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "This 100% import substitution does not apply to any specific products.",
+        "question_length": 52,
+        "answer_length": 70
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാക്കാൻ ഒരു കമ്പനിയ്ക്ക് അഡോമിറക്കൻ അന്തർസ്ഥാന നിര്‍മ്മാണത്തില്‍ ഉള്ള കമ്പ്യൂട്ടർ ചിപ്പുകള്‍ക്കായിരിക്കും.",
+        "question_length": 80,
+        "answer_length": 136
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:56:05.721680",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 2.627595901489258,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "The document does not provide specific information about the date when Trump declared 100% security for the system.",
+        "question_length": 46,
+        "answer_length": 115
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "No, the 100% return on investment is not a risk.",
+        "question_length": 52,
+        "answer_length": 48
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "യുഎസിൽ നിർമ്മിക്കുന്ന കമ്പ്യൂട്ടറുകൾക്ക് ഈ ശുൽക ബാധകമല്ല.",
+        "question_length": 80,
+        "answer_length": 57
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T17:56:12.472176",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 3.0608320236206055,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന്, ട്രംപ് 100% ശതമാനം ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 59
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശുൽകം യു.എസ്. പ്രസിഡന്റ് ഡോണാൾഡ് ട്രമ്പ് വിഡോഷത്ത് നിർമ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിങ്ങ് കണ്ട്രോളറുകളുടെയും ഇറക്കുമതിക്ക് മാത്രമാണ് ബാധകം.",
+        "question_length": 52,
+        "answer_length": 168
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "The U.S. President, Donald Trump, announced on August 6, 2025, that companies will be exempt from the 100% tariff on computer chips and technology imports. However, U.S. companies that are party to certain agreements are not exempt from these tariffs.",
+        "question_length": 80,
+        "answer_length": 251
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:00:30.075108",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 5.9123945236206055,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100 ശതമാനം ശുല്കം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 58
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാനം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 84
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple's investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:01:02.579980",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.49172306060791016,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 4ccb0b\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 4ccb0b",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:36:30.621465",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.28343677520751953,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 4b9f94\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 4b9f94",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:36:54.337398",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.31744813919067383,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 4b9f94\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 4b9f94",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "103.233.92.29"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:36:58.281657",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.7118761539459229,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 4b9f94\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 4b9f94",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "20.244.56.156"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T18:37:04.436344",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 2.9279770851135254,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100% ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 51
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുല്കം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി കണ്ടക്ടറുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 93
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple’s investment commitment and what was its objective?",
+        "answer": "No relevant context found for question: What was Apple’s investment commitment and what was its objective?",
+        "question_length": 66,
+        "answer_length": 106
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "No relevant context found for question: What impact will this new policy have on consumers and the global market?",
+        "question_length": 73,
+        "answer_length": 113
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "20.244.56.156"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:03:08.357467",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 6.214978933334351,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100 ശതമാനം ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 57
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുല്കം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 90
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "Apple's investment commitment was $100 billion over 5 years. Its objective was to create jobs in the U.S.",
+        "question_length": 66,
+        "answer_length": 105
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The new policy will have no impact on consumers in the US, but it will affect global markets by increasing the cost of video games.",
+        "question_length": 73,
+        "answer_length": 131
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:05:51.152609",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 6.286719083786011,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100% ശുൽകം പ്രഖ്യാപിച്ചു.",
+        "question_length": 46,
+        "answer_length": 51
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുല്കം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 90
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "Apple's investment commitment was $100 billion over 5 years. Its objective was to create jobs in the U.S.",
+        "question_length": 66,
+        "answer_length": 105
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The new policy will have no impact on consumers in the US, but it will affect global markets by increasing the cost of video games.",
+        "question_length": 73,
+        "answer_length": 131
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:06:08.943105",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Mediclaim%20Insurance%20Policy.docx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A42%3A14Z&se=2026-08-05T18%3A42%3A00Z&sr=b&sp=r&sig=yvnP%2FlYfyyqYmNJ1DX51zNVdUq1zH9aNw4LfPFVe67o%3D",
+    "processing_time_seconds": 11.07010793685913,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What types of hospitalization expenses are covered, and what are the limits for room and ICU expenses?",
+        "answer": "The policy covers hospitalization expenses for illness/diseases contracted or injury sustained by the insured persons. Room and ICU expenses are covered up to 1% of the sum insured or Rs. 5000/- per day, whichever is less.",
+        "question_length": 102,
+        "answer_length": 222
+      },
+      {
+        "question_id": 2,
+        "question": "What is domiciliary hospitalization, and what are its key exclusions?",
+        "answer": "Domiciliary hospitalization means medical treatment for a period exceeding three days for such an illness/disease/injury which in the normal course would require care and treatment at a hospital but is actually taken while confined at home under any of the following circumstances: the condition of the patient is such that he/she is not in a condition to be removed to a hospital, or the patient takes treatment at home on account of non-availability of room in a hospital.\n\nKey exclusions for domiciliary hospitalization include:\n- Expenses incurred for pre and post hospital treatment\n- Expenses incurred for treatment of any of the following diseases: Asthma, Bronchitis, Chronic Nephritis and Nephritic Syndrome, Diarrhea and all types of Dysenter",
+        "question_length": 69,
+        "answer_length": 752
+      },
+      {
+        "question_id": 3,
+        "question": "What are the benefits and limits of Ambulance Services?",
+        "answer": "The benefit for ambulance services is that 1% of the sum insured or Rs 2000/-, whichever is less, shall be reimbursable in case the patient has to be shifted from residence to hospital in case of admission in Emergency Ward / I.C.U. or from one hospital/nursing home to another hospital/nursing home by registered ambulance only for better medical facilities.",
+        "question_length": 55,
+        "answer_length": 359
+      },
+      {
+        "question_id": 4,
+        "question": "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+        "answer": "The policy covers telemedicine expenses up to a maximum of Rs. 2,000 per insured person or per family for the policy period, subject to the terms and conditions of the policy contract. Maternity coverage is an optional benefit that can be obtained by paying an additional 10% of the total basic premium, with a maximum benefit of up to Rs. 50,000, and includes coverage for the newborn child up to 3 months. A waiting period of 9 months is applicable for maternity-related claims, with certain exceptions for medical emergencies.",
+        "question_length": 90,
+        "answer_length": 529
+      },
+      {
+        "question_id": 5,
+        "question": "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+        "answer": "The waiting period for pre-existing diseases is 36 months of continuous coverage after the date of inception of the first policy. For specified diseases or procedures, the waiting periods vary from 1 to 2 years, depending on the condition. For example, benign ENT disorders and polycystic ovarian diseases have a 1-year waiting period, while surgeries like hernia, hydrocele, and others have a 2-year waiting period.",
+        "question_length": 92,
+        "answer_length": 416
+      }
+    ],
+    "metadata": {
+      "document_chunks": 42,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 42,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:08:10.216190",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 5.250343084335327,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 27
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is the Milky Way.",
+        "question_length": 31,
+        "answer_length": 40
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:08:24.178809",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 6.142996072769165,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The document context states that the human body has 12 lungs. However, this is factually incorrect. In reality, the human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 139
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the given context.",
+        "question_length": 31,
+        "answer_length": 60
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:09:46.786167",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 2.310018301010132,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The document context does not provide the capital of Australia.",
+        "question_length": 33,
+        "answer_length": 63
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 12 lungs.",
+        "question_length": 36,
+        "answer_length": 28
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the given context.",
+        "question_length": 31,
+        "answer_length": 60
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:09:57.563850",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 2.5634422302246094,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "The document context states that clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 65
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 27
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The document context does not provide information about the name of our galaxy.",
+        "question_length": 31,
+        "answer_length": 79
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:16:06.804251",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 3.3890368938446045,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The document context states that the human body has 12 lungs. However, this is factually incorrect. In reality, the human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 139
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the given context.",
+        "question_length": 31,
+        "answer_length": 60
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:16:13.482703",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 3.352180242538452,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 12 lungs.",
+        "question_length": 36,
+        "answer_length": 28
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not mentioned in the provided context.",
+        "question_length": 31,
+        "answer_length": 64
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:16:40.499488",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 1.7983808517456055,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "The document context states that clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 65
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 27
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The document context does not provide information about the name of our galaxy.",
+        "question_length": 31,
+        "answer_length": 79
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:17:25.069262",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 4.690735101699829,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Canberra.",
+        "question_length": 33,
+        "answer_length": 37
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 12 lungs.",
+        "question_length": 36,
+        "answer_length": 28
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the context.",
+        "question_length": 31,
+        "answer_length": 54
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:17:35.044559",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 2.244044303894043,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The document context states that the capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 69
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 12 lungs.",
+        "question_length": 36,
+        "answer_length": 28
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is the Milky Way.",
+        "question_length": 31,
+        "answer_length": 40
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:19:06.413328",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 5.916613340377808,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The document context states that the human body has 12 lungs. However, this is factually incorrect. In reality, the human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 139
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the given context.",
+        "question_length": 31,
+        "answer_length": 60
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:19:32.519112",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 3.4263336658477783,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The human body has 12 lungs.",
+        "question_length": 36,
+        "answer_length": 28
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not mentioned in the provided context.",
+        "question_length": 31,
+        "answer_length": 64
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:20:24.290297",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.1932077407836914,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: bebaf8\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: bebaf8",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:20:40.156925",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 0.10853695869445801,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 46,
+        "answer_length": 720
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 52,
+        "answer_length": 720
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 80,
+        "answer_length": 720
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "The document does not contain this information.",
+        "question_length": 66,
+        "answer_length": 47
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The document does not contain this information.",
+        "question_length": 73,
+        "answer_length": 47
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:20:59.512802",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 0.2157442569732666,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 46,
+        "answer_length": 720
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 52,
+        "answer_length": 720
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "2025  ഓഗസ്റ്റ്\u0004 6-ന്\u0004,    യു\u0007എസ്സ്\u0004 പ്ര\u000bസി\rഡൻറ്\u0004 ഡോഡ\u0012ണൾഡ\u0004 പ്ര\u0015\u0016\u000b\u0004,   വി\rഡോ\u0018ശത്ത്\u0004 ന്\rർമ്മി\rച്ച\n    കമ്പ്യൂ !ട്ടർ ചി\rപ്പു\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ടെസിമി\rക്കണ്ടക്ട+റ്\u0007കളു\u0007ടെ\u0015യു\u0007\u0016 ഇറ്ക്ക\u0007മിതി\rക്ക\u0007 100  ശതിമി\u0012ന്\u0016\n  ശ\u0007ല്\u0004ക്ക\u0016 ഏർടെപ്പു\u0015\u0007ത്ത്\u0007ടെമിന്ന്\u0004 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ച\u0007. എന്ന്\u0012ൽ,   യു\u0007എസി\rൽ ന്\rർമ്മി\rക്ക\u0012ൻ\n    പ്ര\u000bതി\rജ്ഞാ\u0012ബദ്ധരാ\u0012യു കമ്പ്യൂന്\rകൾക്ക\u0004 ഈ ശ\u0007ൽക\u0016 ബ\u0012ധകമില്ല.   ഈ ന്\u0015\u000b\u0015\rയു\u0007ടെ\u0015\nല്ക്ഷ്യം \u0016,     അഡോമിരാ\rക്കൻ അന്തർസ്ഥാ\u0012\u000bന് ന്\rർമ്മി\u0012ണ\u0016 തി\u0012ഡോക്ക\u0012ൽടെപ്പു\u0015\u0007ത്ത്\u0007കയു\u0007\u0016 വി\rഡോ\u0018ശ \n  ആപ്രശ\rതിതി?\u0016 ക\u0007റ്യു\u0004ക്ക\u0007കയു\u0007\u0016 ടെചിയ്യാ\u0012ന്\u0007മി\u0012ണ\u0004.  ആപ്പു\rൾ 600   ബ\rല് ൺ ഡോഡ\u0012ളുർയു\u0007ടെ\u0015\n  ആഗ\u0012മി\r ന്\rഡോക്ഷ്യം\u000b\u0016 പ്ര\u000bഖ്യാ \u0012\u000b\rച്ചഡോപ്പു\u0012ൾ,     ഈ ക\u0012റ്റമി\u0012യു\r തി\u0007\u0015രാ\u0007ന്ന്തി\u0004 വി\rല്\n     വിർദ്ധ\rപ്പു\rക്ക\u0012ന്\u0007\u0016 വി\u0012ണ\rജ്യ വി\rരാ\u0007ദ്ധ പ്ര\u000bതി\rകരാണങ്ങൾക്ക\u0007\u0016 വിഴി\r തി\u0007റ്ക്ക\u0007ന്ന്\u0007.",
+        "question_length": 80,
+        "answer_length": 720
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "The document does not contain this information.",
+        "question_length": 66,
+        "answer_length": 47
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The document does not contain this information.",
+        "question_length": 73,
+        "answer_length": 47
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:22:53.462935",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 0.17051076889038086,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 46,
+        "answer_length": 44
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 52,
+        "answer_length": 44
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 80,
+        "answer_length": 44
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "The document does not contain this information.",
+        "question_length": 66,
+        "answer_length": 47
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The document does not contain this information.",
+        "question_length": 73,
+        "answer_length": 47
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:24:07.616022",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 0.10547661781311035,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 46,
+        "answer_length": 44
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 52,
+        "answer_length": 44
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഡോക്യുമെന്റിൽ ഈ ചോദ്യത്തിന് ഉത്തരം ലഭ്യമല്ല.",
+        "question_length": 80,
+        "answer_length": 44
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "The document does not contain this information.",
+        "question_length": 66,
+        "answer_length": 47
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The document does not contain this information.",
+        "question_length": 73,
+        "answer_length": 47
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:25:17.878651",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "processing_time_seconds": 7.525899887084961,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "answer": "2025 ഓഗസ്റ്റ് 6-ന് യുഎസ്സ് പ്രസിഡണ്ട് ഡോണൾഡ് ട്രംപ് 100 ശതമാനം ശുൽക്ക് പ്രഖ",
+        "question_length": 46,
+        "answer_length": 75
+      },
+      {
+        "question_id": 2,
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "answer": "ഈ 100% ഇറക്കുമതി ശതമാനം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്.",
+        "question_length": 52,
+        "answer_length": 84
+      },
+      {
+        "question_id": 3,
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+        "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്.",
+        "question_length": 80,
+        "answer_length": 197
+      },
+      {
+        "question_id": 4,
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "answer": "Apple's investment commitment was $100 billion over 5 years. Its objective was to create jobs and contribute to the U.S. economy.",
+        "question_length": 66,
+        "answer_length": 129
+      },
+      {
+        "question_id": 5,
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "answer": "The new policy will have no impact on consumers in the US, but it will affect global markets by increasing the cost of video games.",
+        "question_length": 73,
+        "answer_length": 131
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:25:49.596010",
+    "document_url": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "processing_time_seconds": 0.22278046607971191,
+    "total_questions": 1,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is my flight number?",
+        "answer": "🎯 PUZZLE SOLVED! Your flight number is: 09c033\n📍 Journey Details:\n• Secret City: New York\n• Landmark in New York: Eiffel Tower\n• API Endpoint Used: /teams/public/flights/getThirdCityFlightNumber\n• Final Flight Number: 09c033",
+        "question_length": 25,
+        "answer_length": 224
+      }
+    ],
+    "metadata": {
+      "document_chunks": 3,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 3,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:26:08.753707",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "processing_time_seconds": 5.773095607757568,
+    "total_questions": 7,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What is the capital of Australia?",
+        "answer": "The capital of Australia is Florida.",
+        "question_length": 33,
+        "answer_length": 36
+      },
+      {
+        "question_id": 2,
+        "question": "Where can we find Dinosaurs?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 28,
+        "answer_length": 60
+      },
+      {
+        "question_id": 3,
+        "question": "What are clouds made of?",
+        "answer": "Clouds are made of cotton candy.",
+        "question_length": 24,
+        "answer_length": 32
+      },
+      {
+        "question_id": 4,
+        "question": "How to grow plants faster?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 26,
+        "answer_length": 60
+      },
+      {
+        "question_id": 5,
+        "question": "How many lungs does human body have?",
+        "answer": "The document context states that the human body has 12 lungs. However, this is factually incorrect. In reality, the human body has 2 lungs.",
+        "question_length": 36,
+        "answer_length": 139
+      },
+      {
+        "question_id": 6,
+        "question": "Who is Sanjeev bajaj?",
+        "answer": "No relevant context found for this question in the document.",
+        "question_length": 21,
+        "answer_length": 60
+      },
+      {
+        "question_id": 7,
+        "question": "What is the name of our galaxy?",
+        "answer": "The name of our galaxy is not provided in the given context.",
+        "question_length": 31,
+        "answer_length": 60
+      }
+    ],
+    "metadata": {
+      "document_chunks": 1,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 1,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  },
+  {
+    "timestamp": "2025-08-10T19:26:57.178549",
+    "document_url": "https://hackrx.blob.core.windows.net/assets/Test%20/Mediclaim%20Insurance%20Policy.docx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A42%3A14Z&se=2026-08-05T18%3A42%3A00Z&sr=b&sp=r&sig=yvnP%2FlYfyyqYmNJ1DX51zNVdUq1zH9aNw4LfPFVe67o%3D",
+    "processing_time_seconds": 10.828845977783203,
+    "total_questions": 5,
+    "query_response_pairs": [
+      {
+        "question_id": 1,
+        "question": "What types of hospitalization expenses are covered, and what are the limits for room and ICU expenses?",
+        "answer": "The policy covers hospitalization expenses for illness/diseases contracted or injury sustained by the insured person. The limits for room and ICU expenses are as follows:\n- Room expenses: 1% of the sum insured or Rs. 5000/- per day, whichever is less.\n- ICU expenses: 2% of the sum insured or Rs. 10,000/- per day, whichever is less.",
+        "question_length": 102,
+        "answer_length": 333
+      },
+      {
+        "question_id": 2,
+        "question": "What is domiciliary hospitalization, and what are its key exclusions?",
+        "answer": "Domiciliary hospitalization refers to medical treatment for a period exceeding three days for an illness/disease/injury that would normally require hospital care but is actually taken at home. Key exclusions include expenses for pre and post hospital treatment, and treatment for specific diseases like asthma, bronchitis, chronic nephritis, and more.",
+        "question_length": 69,
+        "answer_length": 351
+      },
+      {
+        "question_id": 3,
+        "question": "What are the benefits and limits of Ambulance Services?",
+        "answer": "The benefits and limits of Ambulance Services under the policy are as follows:\n\n- **Benefit**: Ambulance services are reimbursable up to 1% of the sum insured or Rs 2000/- whichever is less.\n- **Limit**: The reimbursement is applicable only when the patient has to be shifted from residence to a hospital in case of admission in the Emergency Ward / I.C.U. or from one hospital/nursing home to another hospital/nursing home by a registered ambulance for better medical facilities.",
+        "question_length": 55,
+        "answer_length": 480
+      },
+      {
+        "question_id": 4,
+        "question": "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+        "answer": "**Telemedicine Benefits:**\n- Coverage for expenses incurred on teleconsultation with a registered medical practitioner for diagnosis and treatment of diseases/illnesses covered under the policy.\n- Limit: Maximum of Rs. 2,000 per insured or per family for a policy period.\n\n**Maternity Coverage Benefits (Optional):**\n- Coverage for maternity expenses and newborn child benefits.\n- Must be opted at policy inception and requires a 9-month waiting period for normal delivery or caesarean section.\n- Limit: Up to Rs. 50,000, and the sum insured",
+        "question_length": 90,
+        "answer_length": 541
+      },
+      {
+        "question_id": 5,
+        "question": "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+        "answer": "For pre-existing diseases, the waiting period is 36 months of continuous coverage after the policy inception date. For specified diseases or procedures, the waiting periods vary; for example, Benign ENT disorders and surgeries have a 1-year waiting period, while surgeries like hernia, hydrocele, and cataract have a 2-year waiting period.",
+        "question_length": 92,
+        "answer_length": 339
+      }
+    ],
+    "metadata": {
+      "document_chunks": 42,
+      "embedding_dimensions": 384,
+      "faiss_index_size": 42,
+      "top_k_retrieval": 8,
+      "cache_hit": true,
+      "request_source": "127.0.0.1"
+    }
+  }
+]

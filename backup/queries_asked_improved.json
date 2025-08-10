@@ -1,0 +1,877 @@
+[
+  {
+    "document_id": "arogya_sanjeevani_policy",
+    "document_title": "Arogya Sanjeevani Health Insurance Policy",
+    "document_type": "insurance_policy",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+    "questions": [
+      {
+        "id": "arogya_001",
+        "question": "Give me a list of documents to be uploaded for hospitalization for heart surgery.",
+        "category": "claim_process",
+        "difficulty": "basic",
+        "expected_answer_type": "list",
+        "language": "en"
+      },
+      {
+        "id": "arogya_002",
+        "question": "I did a cataract treatment of Rs 100,000. Will you settle the full Rs 100,000?",
+        "category": "coverage",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "arogya_003",
+        "question": "I forgot to pay my renewal premium on the due date. I know there is a 30-day grace period. If I get hospitalized on the 10th day of this grace period before I have paid the renewal premium, will my hospitalization expenses be covered?",
+        "category": "premium_policy",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "arogya_004",
+        "question": "I have already claimed a part of my hospital expenses from my corporate insurance policy by submitting the original bills. How can I claim the remaining amount from this Arogya Sanjeevani policy? What documents would you need?",
+        "category": "claim_process",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "arogya_005",
+        "question": "I have done an IVF for Rs 56,000. Is it covered?",
+        "category": "coverage",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "arogya_006",
+        "question": "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?",
+        "category": "claim_coordination",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "arogya_007",
+        "question": "I was treated for an illness, discharged, and then had a relapse of the same illness 40 days later. Does the policy consider this a continuation of the 'Any One Illness' or as a new claim?",
+        "category": "policy_terms",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "arogya_008",
+        "question": "If I am hospitalized, how much will the policy cover for the road ambulance charges?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "arogya_009",
+        "question": "My son, who is covered under my family floater policy, is turning 25 this year and has started earning. What happens to his coverage upon renewal, and what are my options according to the policy?",
+        "category": "eligibility",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "arogya_010",
+        "question": "The policy excludes treatment for refractive error if it's less than 7.5 dioptres. My power is exactly 7.5 dioptres. Does that mean it's covered? What if my doctor writes 7.6 on the certificate to be safe?",
+        "category": "coverage",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "arogya_011",
+        "question": "When will my root canal claim of Rs 25,000 be settled?",
+        "category": "claim_timeline",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "super_splendor_manual",
+    "document_title": "Hero Super Splendor Motorcycle Manual",
+    "document_type": "technical_manual",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Super_Splendor_(Feb_2023).pdf?sv=2023-01-03&st=2025-07-21T08%3A10%3A00Z&se=2025-09-22T08%3A10%3A00Z&sr=b&sp=r&sig=vhHrl63YtrEOCsAy%2BpVKr20b3ZUo5HMz1lF9%2BJh6LQ0%3D",
+    "questions": [
+      {
+        "id": "splendor_001",
+        "question": "Can I use Coca-Cola instead of engine oil in my motorcycle?",
+        "category": "maintenance",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_002",
+        "question": "Does this motorcycle come in a tubeless tire version?",
+        "category": "specifications",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_003",
+        "question": "What is the recommended engine oil type and capacity for this motorcycle?",
+        "category": "maintenance",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_004",
+        "question": "Is it compulsory to have a disc brake on this motorcycle?",
+        "category": "safety_features",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_005",
+        "question": "What is the ideal spark plug gap recommended for this engine?",
+        "category": "maintenance",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_006",
+        "question": "What are the tire pressure specifications for front and rear wheels?",
+        "category": "maintenance",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "splendor_007",
+        "question": "How often should I service my motorcycle according to the manual?",
+        "category": "maintenance",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "family_medicare_policy",
+    "document_title": "Family Medicare Insurance Policy",
+    "document_type": "insurance_policy",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Family%20Medicare%20Policy%20(UIN-%20UIIHLIP22070V042122)%201.pdf?sv=2023-01-03&st=2025-07-22T10%3A17%3A39Z&se=2025-08-23T10%3A17%3A00Z&sr=b&sp=r&sig=dA7BEMIZg3WcePcckBOb4QjfxK%2B4rIfxBs2%2F%2BNwoPjQ%3D",
+    "questions": [
+      {
+        "id": "family_001",
+        "question": "I renewed my policy yesterday, and I have been a customer for the last 6 years. Can I raise a claim for Hydrocele?",
+        "category": "coverage",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "family_002",
+        "question": "Is Non-infective Arthritis covered under this policy?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "family_003",
+        "question": "Is abortion covered under this policy?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "family_004",
+        "question": "What is the waiting period for pre-existing diseases?",
+        "category": "policy_terms",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "family_005",
+        "question": "What is the maximum sum insured available under this policy?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "indian_constitution",
+    "document_title": "Constitution of India",
+    "document_type": "legal_document",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/indian_constitution.pdf?sv=2023-01-03&st=2025-07-28T06%3A42%3A00Z&se=2026-11-29T06%3A42%3A00Z&sr=b&sp=r&sig=5Gs%2FOXqP3zY00lgciu4BZjDV5QjTDIx7fgnfdz6Pu24%3D",
+    "questions": [
+      {
+        "id": "constitution_001",
+        "question": "According to Article 24, children below what age are prohibited from working in hazardous industries like factories or mines?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_002",
+        "question": "Article 15 prohibits discrimination on certain grounds. However, which groups can the State make special provisions for under this Article?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_003",
+        "question": "If I am arrested without a warrant, is that legal under Indian law?",
+        "category": "legal_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_004",
+        "question": "If I am stopped from speaking at a protest, is that against my constitutional rights?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_005",
+        "question": "If I change my religion, can the government stop me according to the Constitution?",
+        "category": "fundamental_rights",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_006",
+        "question": "If I'm denied admission to a public university because I'm from a backward community, can I seek legal remedy?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_007",
+        "question": "If a religious place stops me from entering because I'm a woman, is that constitutional?",
+        "category": "fundamental_rights",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_008",
+        "question": "If my car is stolen, under which section of law will the case be filed?",
+        "category": "legal_provisions",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_009",
+        "question": "If my child is forced to work in a factory, is that legal according to the Constitution?",
+        "category": "fundamental_rights",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_010",
+        "question": "If someone denies me a job because of my caste, is that allowed under the Constitution?",
+        "category": "fundamental_rights",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_011",
+        "question": "If the government takes my land for a project, can I stop it?",
+        "category": "property_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_012",
+        "question": "If the police torture someone in custody, what constitutional right is being violated?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_013",
+        "question": "Under which Article can Parliament alter the boundaries, area, or name of an existing State?",
+        "category": "state_provisions",
+        "difficulty": "advanced",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_014",
+        "question": "What are the key ideals mentioned in the Preamble of the Constitution of India?",
+        "category": "preamble",
+        "difficulty": "basic",
+        "expected_answer_type": "list",
+        "language": "en"
+      },
+      {
+        "id": "constitution_015",
+        "question": "What is abolished by Article 17 of the Constitution?",
+        "category": "fundamental_rights",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_016",
+        "question": "What is the official name of India according to Article 1 of the Constitution?",
+        "category": "basic_provisions",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_017",
+        "question": "What is the significance of Article 21 in the Indian Constitution?",
+        "category": "fundamental_rights",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "constitution_018",
+        "question": "What restrictions can the State impose on the right to freedom of speech under Article 19(2)?",
+        "category": "fundamental_rights",
+        "difficulty": "advanced",
+        "expected_answer_type": "list",
+        "language": "en"
+      },
+      {
+        "id": "constitution_019",
+        "question": "Which Article allows Parliament to regulate the right of citizenship and override previous articles on citizenship (Articles 5 to 10)?",
+        "category": "citizenship",
+        "difficulty": "advanced",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "constitution_020",
+        "question": "Which Article guarantees equality before the law and equal protection of laws to all persons?",
+        "category": "fundamental_rights",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "principia_newton",
+    "document_title": "Principia Mathematica by Isaac Newton",
+    "document_type": "scientific_text",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D",
+    "questions": [
+      {
+        "id": "newton_001",
+        "question": "According to Newton, what are the three laws of motion and how do they apply in celestial mechanics?",
+        "category": "physics_laws",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_002",
+        "question": "Do we know any other ancestry of Isaac Newton apart from his grandfather?",
+        "category": "biography",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "newton_003",
+        "question": "How does Newton define 'quantity of motion' and how is it distinct from 'force'?",
+        "category": "physics_concepts",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_004",
+        "question": "How does Newton demonstrate that gravity is inversely proportional to the square of the distance between two masses?",
+        "category": "gravitational_theory",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_005",
+        "question": "How does Newton derive Kepler's Second Law (equal areas in equal times) from his laws of motion and gravitation?",
+        "category": "orbital_mechanics",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_006",
+        "question": "How does Newton explain the perturbation of planetary orbits due to other planets?",
+        "category": "orbital_mechanics",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_007",
+        "question": "How does Newton handle motion in resisting media, such as air or fluids?",
+        "category": "fluid_mechanics",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_008",
+        "question": "How does Newton use the concept of centripetal force to explain orbital motion?",
+        "category": "orbital_mechanics",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_009",
+        "question": "In what way does Newton's notion of absolute space and time differ from relative motion, and how does it support his laws?",
+        "category": "physics_philosophy",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_010",
+        "question": "What is Newton's argument for why gravitational force must act on all masses universally?",
+        "category": "gravitational_theory",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_011",
+        "question": "What mathematical tools did Newton use in Principia that were precursors to calculus, and why didn't he use standard calculus notation?",
+        "category": "mathematics",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "newton_012",
+        "question": "Who was the grandfather of Isaac Newton?",
+        "category": "biography",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "happy_family_floater",
+    "document_title": "Happy Family Floater Insurance Policy 2024",
+    "document_type": "insurance_policy",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Happy%20Family%20Floater%20-%202024%20OICHLIP25046V062425%201.pdf?sv=2023-01-03&spr=https&st=2025-07-31T17%3A24%3A30Z&se=2026-08-01T17%3A24%3A00Z&sr=b&sp=r&sig=VNMTTQUjdXGYb2F4Di4P0zNvmM2rTBoEHr%2BnkUXIqpQ%3D",
+    "questions": [
+      {
+        "id": "happy_001",
+        "question": "Describe the steps to port a prior individual policy from another insurer for a dependent parent-in-law, list documents needed for a post-hospitalization medicine claim for your child, and provide the toll-free customer service number.",
+        "category": "policy_porting",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_002",
+        "question": "For a claim submission involving robotic surgery for a spouse at Apollo Care Hospital (city not specified), what supporting documents are needed, how to confirm if the hospital is a network provider, and can a sibling above 26 continue as a dependent if financially dependent after job loss?",
+        "category": "advanced_claims",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_003",
+        "question": "For submitting a claim for prosthetic limb implantation after an accident for a dependent, also check eligibility for claim under other group mediclaim policies if sum insured is exhausted, and provide details for nominating a new legal heir.",
+        "category": "complex_claims",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_004",
+        "question": "If a spouse is set for a scheduled caesarean delivery at an out-of-town hospital not in the company's approved list, also ask if mid-term dependent inclusion is possible for a newborn, and the process to change communication email for the primary insured.",
+        "category": "maternity_coverage",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_005",
+        "question": "If you wish to admit your 17-year-old son for psychiatric illness to a hospital outside your city, also request an address update for all family members, and inquire about coverage for OPD dental checkups under Gold and Platinum plans.",
+        "category": "mental_health",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_006",
+        "question": "Is it possible to get insurance coverage for cosmetic surgery under this policy?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "happy_007",
+        "question": "When making a cashless psychiatric care request for a dependent child at Harmony Wellness, at the same time, seek the critical illness survival benefit details and the list of required claim documents for a cancer diagnosis.",
+        "category": "critical_illness",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_008",
+        "question": "When pursuing claim settlement for a dependent's cataract surgery and simultaneously seeking to upgrade from Silver to Diamond plan with enhanced sum insured, also request the regional ombudsman contact for your state.",
+        "category": "plan_upgrade",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_009",
+        "question": "While checking the process for submitting a dental claim for a 23-year-old financially dependent daughter (who recently married and changed her surname), also confirm the process for updating her last name in the policy records and provide the company's grievance redressal email.",
+        "category": "dependent_management",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_010",
+        "question": "While inquiring about the maximum cashless hospitalization benefit for accidental trauma for a covered parent-in-law, simultaneously provide the claim notification procedure, and confirm the process to replace a lost ID card for another dependent.",
+        "category": "emergency_claims",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "happy_011",
+        "question": "While requesting pre-authorization for air ambulance transfer following a road accident, also ask about process for re-issuing a lost policy document and the waiting period for new dependents included this policy year.",
+        "category": "emergency_services",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "uni_group_health_insurance",
+    "document_title": "UNI Group Health Insurance Policy",
+    "document_type": "insurance_policy",
+    "language": "en",
+    "format": "pdf",
+    "documents": "https://hackrx.blob.core.windows.net/assets/UNI%20GROUP%20HEALTH%20INSURANCE%20POLICY%20-%20UIIHLGP26043V022526%201.pdf?sv=2023-01-03&spr=https&st=2025-07-31T17%3A06%3A03Z&se=2026-08-01T17%3A06%3A00Z&sr=b&sp=r&sig=wLlooaThgRx91i2z4WaeggT0qnuUUEzIUKj42GsvMfg%3D",
+    "questions": [
+      {
+        "id": "uni_001",
+        "question": "A claim was lodged for expenses on a prosthetic device after a hip replacement surgery. The hospital bill also includes the cost of a walker and a lumbar belt post-discharge. Which items are payable?",
+        "category": "medical_devices",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "uni_002",
+        "question": "A group employer wishes to add a new employee, their spouse, and sibling as insured persons mid-policy. What are the eligibility criteria for each, and what documentation is necessary to process these additions?",
+        "category": "group_policy",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "uni_003",
+        "question": "A hospitalized insured person develops an infection requiring post-hospitalization diagnostics and pharmacy expenses 20 days after discharge. Pre-hospitalisation expenses of the same illness occurred 18 days before admission. Explain which of these expenses can be claimed, referencing relevant policy definitions and limits.",
+        "category": "post_hospitalization",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "uni_004",
+        "question": "A member of a non-employer group policy dies during the policy period. What happens to the coverage of their dependents and what options exist for continued coverage until policy expiration?",
+        "category": "group_policy",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "uni_005",
+        "question": "A patient receives oral chemotherapy in a network hospital and requests reimbursement for ECG electrodes and gloves used during each session. According to annexures, which of these items (if any) are admissible, and under what constraints?",
+        "category": "chemotherapy_coverage",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "mediclaim_insurance_policy",
+    "document_title": "Mediclaim Insurance Policy",
+    "document_type": "insurance_policy",
+    "language": "en",
+    "format": "docx",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Test%20/Mediclaim%20Insurance%20Policy.docx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A42%3A14Z&se=2026-08-05T18%3A42%3A00Z&sr=b&sp=r&sig=yvnP%2FlYfyyqYmNJ1DX51zNVdUq1zH9aNw4LfPFVe67o%3D",
+    "questions": [
+      {
+        "id": "mediclaim_001",
+        "question": "What types of hospitalization expenses are covered, and what are the limits for room and ICU expenses?",
+        "category": "coverage",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "mediclaim_002",
+        "question": "What is domiciliary hospitalization, and what are its key exclusions?",
+        "category": "domiciliary_care",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "mediclaim_003",
+        "question": "What are the benefits and limits of Ambulance Services?",
+        "category": "emergency_services",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "mediclaim_004",
+        "question": "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+        "category": "telemedicine_maternity",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "mediclaim_005",
+        "question": "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+        "category": "waiting_periods",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "fact_check",
+    "document_title": "Fact Check Document",
+    "document_type": "fact_verification",
+    "language": "en",
+    "format": "docx",
+    "documents": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+    "questions": [
+      {
+        "id": "fact_001",
+        "question": "What is the capital of Australia?",
+        "category": "geography",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "fact_002",
+        "question": "Where can we find Dinosaurs today?",
+        "category": "science",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "fact_003",
+        "question": "What are clouds made of?",
+        "category": "science",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "fact_004",
+        "question": "How to grow plants faster naturally?",
+        "category": "agriculture",
+        "difficulty": "basic",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "fact_005",
+        "question": "How many lungs does the human body have?",
+        "category": "anatomy",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "fact_006",
+        "question": "Who is Sanjeev Bajaj?",
+        "category": "business",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      },
+      {
+        "id": "fact_007",
+        "question": "What is the name of our galaxy?",
+        "category": "astronomy",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "document_id": "final_round_submission",
+    "document_title": "HackRx Final Round Submission PDF",
+    "document_type": "competition_document",
+    "language": "en",
+    "format": "pdf",
+    "special_requirements": {
+      "api_calls": true,
+      "interactive_elements": true,
+      "step_by_step_process": true
+    },
+    "documents": "https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D",
+    "questions": [
+      {
+        "id": "final_001",
+        "question": "What is my flight number?",
+        "category": "api_interaction",
+        "difficulty": "advanced",
+        "expected_answer_type": "procedural",
+        "language": "en",
+        "requires_api_call": true
+      },
+      {
+        "id": "final_002",
+        "question": "What are the steps to complete the final round submission?",
+        "category": "process_flow",
+        "difficulty": "intermediate",
+        "expected_answer_type": "procedural",
+        "language": "en"
+      },
+      {
+        "id": "final_003",
+        "question": "What APIs are mentioned in the document and how should they be called?",
+        "category": "api_interaction",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en",
+        "requires_api_call": false
+      },
+      {
+        "id": "final_004",
+        "question": "What landmarks are associated with my favorite city according to the API response?",
+        "category": "api_interaction",
+        "difficulty": "advanced",
+        "expected_answer_type": "factual",
+        "language": "en",
+        "requires_api_call": true
+      }
+    ]
+  },
+  {
+    "document_id": "news_multilingual",
+    "document_title": "News Document (Multilingual)",
+    "document_type": "news_article",
+    "language": "ml_en",
+    "format": "pdf",
+    "special_requirements": {
+      "multilingual_support": true,
+      "malayalam_content": true,
+      "translation_needed": false
+    },
+    "documents": "https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D",
+    "questions": [
+      {
+        "id": "news_001",
+        "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+        "category": "trade_policy",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "ml"
+      },
+      {
+        "id": "news_002",
+        "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+        "category": "trade_policy",
+        "difficulty": "intermediate",
+        "expected_answer_type": "list",
+        "language": "ml"
+      },
+      {
+        "id": "news_003",
+        "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴിവാക്കൽ ലഭിക്കും?",
+        "category": "trade_policy",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "ml"
+      },
+      {
+        "id": "news_004",
+        "question": "What was Apple's investment commitment and what was its objective?",
+        "category": "corporate_investment",
+        "difficulty": "intermediate",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "news_005",
+        "question": "What impact will this new policy have on consumers and the global market?",
+        "category": "economic_impact",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "en"
+      },
+      {
+        "id": "news_006",
+        "question": "ഈ പുതിയ നയം ഇന്ത്യൻ വിപണിയിൽ എന്ത് സ്വാധീനം ചെലുത്തും?",
+        "category": "economic_impact",
+        "difficulty": "advanced",
+        "expected_answer_type": "explanatory",
+        "language": "ml"
+      },
+      {
+        "id": "news_007",
+        "question": "ആപ്പിളിന്റെ നിക്ഷേപ പ്രതിബദ്ധത എത്രയാണ്?",
+        "category": "corporate_investment",
+        "difficulty": "basic",
+        "expected_answer_type": "factual",
+        "language": "ml"
+      }
+    ]
+  }
+]

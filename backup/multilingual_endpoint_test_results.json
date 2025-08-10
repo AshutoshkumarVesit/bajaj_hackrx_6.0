@@ -1,0 +1,28 @@
+{
+  "endpoint": "/hackrx/run",
+  "document": "News.pdf",
+  "timestamp": "2024-08-10 12:00:00",
+  "status": "success",
+  "multilingual_qa": [
+    {
+      "question": "ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?",
+      "answer": "2025 ഓഗസ്റ്റ് 6-ന് ട്രംപ് 100% ശുൽകം പ്രഖ്യാപിച്ചു."
+    },
+    {
+      "question": "ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?",
+      "answer": "ഈ 100% ഇറക്കുമതി ശതമാന ശുല്കം കമ്പ്യൂട്ടർ ചിപ്പുകൾക്കും ടെലിമെട്രി ഡിവൈസുകൾക്കും ബാധകമാണ്."
+    },
+    {
+      "question": "ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?",
+      "answer": "ഒരു കമ്പനിക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും ഒഴികെയാകാൻ യു.എസ്. പ്രസിഡന്റിന്റെ ഡോഡണൽഡിന്റെ വീഡോശത്ത് ന്‍മ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളുടെയും ടെസ്റ്റിമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കമിതി 100 ശതമാനമാകുമ്പോൾ ആണ്."
+    },
+    {
+      "question": "What was Apple's investment commitment and what was its objective?",
+      "answer": "Apple's investment commitment was $100 billion over 5 years. Its objective was to create jobs in the U.S."
+    },
+    {
+      "question": "What impact will this new policy have on consumers and the global market?",
+      "answer": "The new policy will have no impact on consumers in the US, but it will affect global markets by increasing the cost of video games."
+    }
+  ]
+}
